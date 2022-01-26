@@ -15,6 +15,7 @@ if (window.innerWidth <= 1260) {
 
 window.onscroll = (e) => {
     if (!littleScreen) {
+
         if (window.scrollY >= ySwitch && !isSwitched) {
             isSwitched = true
             navbarItems.forEach((item, index) => {
