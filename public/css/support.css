@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1260px) {
+    .l-flex { display: block; margin: 0 auto; }
+    .l-flex-item { margin: 0 auto; display: flex; width: 75%; }
+    .navbar-item { width: 15%; }
+    .description { text-align: center; }
+    .team-name { align-self: center; margin-left: 5vw; }
+    .footer { padding: 1vh 2vw; }
+    .footer-link { display: inline-block; margin: 0 1%; }
+    .footer-column { display: block; width: 50%; padding: 1vh; }
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar-item { width: 16%; }
+}
+
+@media only screen and (max-width: 940px) {
+    body { font-size: 18px; }
+    .title-primary { font-size: 2.25em; }
+    .title-secondary { font-size: 1.75em; }
+    .image { width: 128px; height: 128px; }
+    .information { width: 50%; }
+}

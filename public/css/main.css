@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --important-color: #15c6a8;
+    --background-color: #202323;
+    --background-light-color: #333939;
+    --footer-color: #000;
+
+    --text-color: #fff;
+    --header-color: #e0e0e0;
+
+    --header-height: 80vh;
+}
+
+body { font-family: "Montserrat", sans-serif; font-size: 22px; background: var(--background-color); }
+p { color: var(--text-color); }
+
+.header { height: var(--header-height); }
+.header-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+    z-index: -15;
+    filter: blur(2px);
+}
+.title { font-family: "Roboto", sans-serif; font-weight: 300; color: var(--text-color); }
+.title-primary { padding-top: 15%; color: var(--header-color); font-size: 2.75em; text-align: center; }
+.title-secondary { text-align: center; font-size: 2em; }
+.title-first_box { font-size: 1.5em; }
+.subtitle { text-align: center; margin: 2vh 0; }
+.link { color: var(--important-color); text-decoration: none; }
+.image { border-radius: 5px; }
+
+.presentation { position: relative; top: -2vh; }
+
+.vs { font-weight: bold; color: var(--important-color); font-size: 2.5em; }
+.vs-date { text-decoration: underline; }
+.team-name { margin-top: 4vh; display: block; }
+
+.all-matches.team-logo { width: 128px; height: 128px; }
+.all-matches.team-name { font-size: 1.1em; margin-top: 2vh; }
+.all-matches.vs { font-size: 2em; }
+.all-matches.vs-date { font-size: 0.75em; }
+
+.footer { padding: 2vh 2vw; background: var(--footer-color); }
+.footer-link { display: block; margin: 1vh 7vw; color: var(--text-color); }
+.footer-link:hover { color: var(--important-color); }
+
+.credit { font-style: italic; }
+.link-credit { color: var(--important-color); }
+
+.navbar {
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    position: fixed;
+    z-index: 15;
+}
+.navbar-item { width: 12%; }
+.navbar-link { color: white; display: inline-block; text-transform: uppercase; }
+.navbar-background {
+    position: absolute;
+    background: var(--footer-color);
+    opacity: 0.92;
+    top: -8vh;
+    width: 100vw;
+    height: 8vh;
+    z-index: -1;
+    transition: .3s;
+}
+
+.content { display: block; background: var(--background-color); }
+.description { text-align: justify; }
+.center { text-align: center; }
+.center-vert { margin: auto 0; display: block; align-self: center; }
+.center-part { padding: 5vh 15vw 3vh 15vw; }
+.background-color2 { background: var(--background-light-color); padding: 5vh 15vw 3vh 15vw; }
+.btn-primary {
+    padding: 1.5vh 2vw;
+    margin: 5vh auto;
+    width: 15%;
+    display: block;
+    background: var(--important-color);
+    color: var(--footer-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.l-flex { display: flex; flex-wrap: wrap; }
+.l-flex-item { padding: 3vh; text-align: center; }
+.l-flex-content { margin: 1vh 1vw; }
+.l-list3 { margin-top: 2vh; }
+.l-flex3-item { width: 33%; box-sizing: border-box; }
+.l-list2 { width: 75%; margin: 0 auto; }
+.l-flex2-item { width: 40%; margin: 0 auto; }
+.l-flex2-content { text-align: center; }
+.l-list5 { width: 75%; margin: 0 auto; }
+.l-flex5-item { width: 20%; box-sizing: border-box; }
+.l-part { margin-top: 5vh; }
+.l-separator { margin-top: 20vh; }
+.l-little-separator { margin-top: 10vh; }
+.l-no-marge { margin: 0; }
+.l-full { width: 100%; }
+
+.navbar-background.is-active { top: 0; transition: .3s; }

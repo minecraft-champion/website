@@ -1,0 +1,22 @@
+{
+    "name": "anhgelus/es-mc_website",
+    "type": "project",
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    },
+    "license": "GPLv3",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anhgelus",
+            "email": "anhgelus.morhtuuzh@gmx.com"
+        }
+    ],
+  "require": {
+    "ext-pdo": "*"
+  }
+}
