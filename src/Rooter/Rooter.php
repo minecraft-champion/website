@@ -93,6 +93,15 @@ class Rooter {
     }
 
     /**
+     * Map a list of uri with a list of link
+     * @param array $data List of uri with link ["/hey" => "test/test2.php"]
+     */
+    public function mapArray(array $data)
+    {
+        $this->mapUri = array_merge($this->mapUri, $data);
+    }
+
+    /**
      * Modify the title of a specific page
      *
      * @param string $uri Uri (ex: '/', '/news', '/video?id=16a', etc)
@@ -104,6 +113,15 @@ class Rooter {
     }
 
     /**
+     * Map a list of uri with a list of title
+     * @param array $data List of uri with link ["/hey" => "This is a title"]
+     */
+    public function mapTitleArray(array $data)
+    {
+        $this->mapTitle = array_merge($this->mapTitle, $data);
+    }
+
+    /**
      * Add page's description
      *
      * @param string $uri Uri (ex: '/', '/news', '/video?id=16a', etc)
@@ -112,6 +130,15 @@ class Rooter {
     public function mapDesc(string $uri, string $desc):void
     {
         $this->mapDesc[$uri] = $desc;
+    }
+
+    /**
+     * Map a list of uri with a list of description
+     * @param array $data List of uri with link ["/hey" => "This is just the description of an 'hey' page"]
+     */
+    public function mapDescArray(array $data)
+    {
+        $this->mapDesc = array_merge($this->mapDesc, $data);
     }
 
     /**
