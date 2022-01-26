@@ -13,6 +13,8 @@ class Rooter {
 
     private array $mapDesc = [];
 
+    private array $envVar = [];
+
     private string $defaultRoot = "home.php";
 
     /**
@@ -35,6 +37,7 @@ class Rooter {
     {
         $uri = $this->uri;
         $map = $this->mapUri;
+        $envVar = $this->envVar;
 
         ob_start();
         if ($uri === '/'  || (str_contains($uri, '?') && substr($uri, 0, strpos($uri, '?')) == '/' )) {
@@ -139,6 +142,24 @@ class Rooter {
     public function mapDescArray(array $data)
     {
         $this->mapDesc = array_merge($this->mapDesc, $data);
+    }
+
+    /**
+     * Set the env var
+     * @param array $envVar New Env Var
+     */
+    public function setEnvVar(array $envVar): void
+    {
+        $this->envVar = $envVar;
+    }
+
+    /**
+     * Get the en var
+     * @return array Env Var
+     */
+    public function getEnvVar(): array
+    {
+        return $this->envVar;
     }
 
     /**
