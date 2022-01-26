@@ -5,7 +5,7 @@
     </h2>
     <div class="l-flex l-list3">
         <div class="l-flex-item l-flex3-item">
-            <img class="image" src="https://via.placeholder.com/128x128" alt="IMAGE">
+            <img class="image" src="/img/server.png" alt="IMAGE" width="128px">
             <div class="information">
                 <h3 class="title title-first_box">
                     Un serveur PvP
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="l-flex-item l-flex3-item">
-            <img class="image" src="https://via.placeholder.com/128x128" alt="IMAGE">
+            <img class="image" src="/img/earth.png" alt="IMAGE" width="128px">
             <div class="information">
                 <h3 class="title title-first_box">
                     Fait pour la Communauté
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="l-flex-item l-flex3-item">
-            <img class="image" src="https://via.placeholder.com/128x128" alt="IMAGE">
+            <img class="image" src="/img/swords.png" alt="IMAGE" width="128px">
             <div class="information">
                 <h3 class="title title-first_box">
                     Une véritable compétition
@@ -50,7 +50,7 @@
     <div class="functionalities">
         <div class="function l-flex l-list3">
             <div class="l-flex-item l-flex3-item">
-                <img class="team-logo logo image" src="https://via.placeholder.com/256x256" alt="TeamName Logo" width="256px">
+                <img class="team-logo logo image" src="/img/axe.png" alt="TeamName Logo" width="256px">
                 <h3 class="title title-first_box function-name">
                     Du Training
                 </h3>
@@ -59,7 +59,7 @@
                 </p>
             </div>
             <div class="l-flex-item l-flex3-item">
-                <img class="team-logo logo image" src="https://via.placeholder.com/256x256" alt="TeamName Logo" width="256px">
+                <img class="team-logo logo image" src="/img/trophy.png" alt="TeamName Logo" width="256px">
                 <h3 class="title title-first_box function-name">
                     De la Compétition
                 </h3>
@@ -68,7 +68,7 @@
                 </p>
             </div>
             <div class="l-flex-item l-flex3-item">
-                <img class="team-logo logo image" src="https://via.placeholder.com/256x256" alt="TeamName Logo" width="256px">
+                <img class="team-logo logo image" src="/img/calendar.png" alt="TeamName Logo" width="256px">
                 <h3 class="title title-first_box function-name">
                     Des Matchs
                 </h3>
@@ -96,7 +96,7 @@
             </div>
         </div>
         <div class="l-flex-item l-flex2-item">
-            <img class="image logo part-logo" src="https://via.placeholder.com/256x256" alt="CMFr">
+            <img class="image logo part-logo" src="/img/partner/cmfr.png" alt="CMFr" width="256px">
             <div class="information">
                 <h3 class="title title-first_box">
                     CMFr
