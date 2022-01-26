@@ -1,17 +1,17 @@
 <div class="home">
 <div class="presentation l-part l-no-marge background-color2">
     <h2 class="title title-secondary">
-        What is the E-Sport PvP League?
+        Le Projet en bref
     </h2>
     <div class="l-flex l-list3">
         <div class="l-flex-item l-flex3-item">
             <img class="image" src="https://via.placeholder.com/128x128" alt="IMAGE">
             <div class="information">
                 <h3 class="title title-first_box">
-                    International League
+                    Un serveur PvP
                 </h3>
-                <p class="description l-flex-content">
-                    Everyone can participate. They just need a premium Minecraft account.
+                <p class="description center l-flex-content">
+                    Qui proposera une expérience PvP complète
                 </p>
             </div>
         </div>
@@ -19,10 +19,10 @@
             <img class="image" src="https://via.placeholder.com/128x128" alt="IMAGE">
             <div class="information">
                 <h3 class="title title-first_box">
-                    Made for the Community
+                    Fait pour la Communauté
                 </h3>
-                <p class="description l-flex-content">
-                    By the Community. Made by PvP Players for PvP Players!
+                <p class="description center l-flex-content">
+                    Par la Communauté. Fait par les joueurs PvP pour les joueurs PvP
                 </p>
             </div>
         </div>
@@ -30,51 +30,58 @@
             <img class="image" src="https://via.placeholder.com/128x128" alt="IMAGE">
             <div class="information">
                 <h3 class="title title-first_box">
-                    Organization and Servers
+                    Une véritable compétition
                 </h3>
-                <p class="description l-flex-content">
-                    Powerful servers and best organization made by pro.
+                <p class="description center l-flex-content">
+                    Au sain du monde du PvP Minecraft
                 </p>
             </div>
         </div>
     </div>
 </div>
 
-<div class="tournament l-part center-part">
+<div class="functionality l-part center-part">
     <h2 class="title title-secondary">
-        Tournament
+        Les Fonctionnalités du Serveur
     </h2>
-    <p class="subtitle">
-        Check the <a href="/tournament" class="link">tournament</a> in real time!
+    <p class="subtitle italic">
+        Pas encore toute implémentée car le serveur est encore en alpha
     </p>
-    <div class="matches">
-        <div class="match l-flex l-list3">
-            <div class="team1 l-flex-item l-flex3-item">
+    <div class="functionalities">
+        <div class="function l-flex l-list3">
+            <div class="l-flex-item l-flex3-item">
                 <img class="team-logo logo image" src="https://via.placeholder.com/256x256" alt="TeamName Logo" width="256px">
-                <a class="title title-first_box team-name link" href="/wiki/TeamName">
-                    TeamName
-                </a>
-            </div>
-            <div class="team-vs l-flex-item l-flex3-item center-vert">
-                <a class="vs center l-flex-content link" href="/tournament/match?id=ID_DU_MATCH">
-                    VS
-                </a>
-                <p class="vs-date center l-flex-content">
-                    11.10 am - Tuesday 02/18/22
+                <h3 class="title title-first_box function-name">
+                    Du Training
+                </h3>
+                <p class="subtitle">
+                    Venez vous entrainer sur tous les modes de jeu classique des serveurs practices classiques !
                 </p>
             </div>
-            <div class="team2 l-flex-item l-flex3-item">
+            <div class="l-flex-item l-flex3-item">
                 <img class="team-logo logo image" src="https://via.placeholder.com/256x256" alt="TeamName Logo" width="256px">
-                <a class="title title-first_box team-name link" href="/wiki/TeamName">
-                    TeamName
-                </a>
+                <h3 class="title title-first_box function-name">
+                    De la Compétition
+                </h3>
+                <p class="subtitle">
+                    Un système de classement, de monnaie, etc. Tout ce qu'il faut pour trouver le meilleur !
+                </p>
+            </div>
+            <div class="l-flex-item l-flex3-item">
+                <img class="team-logo logo image" src="https://via.placeholder.com/256x256" alt="TeamName Logo" width="256px">
+                <h3 class="title title-first_box function-name">
+                    Des Matchs
+                </h3>
+                <p class="subtitle">
+                    Des Matchs officiels organisés par le Staff qui opposent les différentes équipes !
+                </p>
             </div>
         </div>
     </div>
 </div>
 <div class="trust l-part l-separator background-color2">
     <h2 class="title title-secondary">
-        They trust us
+        Ils croient en nous et nous aident !
     </h2>
     <div class="l-flex l-list2">
         <div class="l-flex-item l-flex2-item">
@@ -95,8 +102,8 @@
                     CMFr
                 </h3>
                 <p class="description l-flex-content l-flex2-content">
-                    <a href="https://discord.gg/cmfr" class="link link-extern" target="_blank">CMFr</a> is the french community on Discord! <br>
-                    They have more than 7000 members!
+                    <a href="https://discord.gg/cmfr" class="link link-extern" target="_blank">CMFr</a> est la communauté minecraft française sur Discord ! <br>
+                    Ils ont plus de 7000 membres !
                 </p>
             </div>
         </div>
