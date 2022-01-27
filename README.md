@@ -13,4 +13,4 @@ Dependencies tool: `Composer`
 ## Install
 Run `composer install` to get every dependency
 
-The Dockerfile is going to be create
+The Dockerfile is going to be created
