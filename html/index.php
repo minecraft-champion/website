@@ -4,8 +4,8 @@ require '../vendor/autoload.php';
 use App\Rooter\Rooter;
 use App\Rooter\HeaderCreator;
 
-$name = "E-Sport PvP Minecraft";
-$discord = "pas de lien";
+$name = "Minecraft Champion";
+$discord = "https://discord.gg/Fxc53zcDnW";
 
 $header = new HeaderCreator($_SERVER['REQUEST_URI'], "Imaginez une véritable compétition PvP sur Minecraft", "/img/background/arena.jpg");
 $header->mapTitleArray([

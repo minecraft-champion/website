@@ -27,7 +27,7 @@
                 Fondateur de CMFr
             </p>
             <p class="description center">
-                Je le laisse faire une description de lui ici
+                On ne sait pas grand chose de lui, mais c'est un gars hyper sympas ! <span class="italic">(c'est lui qui le dit, pas moi)</span>
             </p>
             <p class="description center">
                 Il n'aime pas le PvP mais il avait une commue de 7k et un ami à aider
