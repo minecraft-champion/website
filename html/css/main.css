@@ -79,7 +79,7 @@ p { color: var(--text-color); }
 }
 
 .content { display: block; background: var(--background-color); }
-.description { text-align: justify; margin-top: 0.25em; }
+.description { text-align: justify; margin-top: 2em; }
 .center { text-align: center; }
 .center-vert { margin: auto 0; display: block; align-self: center; }
 .center-part { padding: 5vh 15vw 3vh 15vw; }

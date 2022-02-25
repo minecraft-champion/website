@@ -81,9 +81,13 @@
 </div>
 <div class="trust l-part l-separator background-color2">
     <h2 class="title title-secondary">
-        Ils croient en nous et nous aident !
+        Nous cherchons des partenaires !
     </h2>
-    <div class="l-flex l-list2">
+    <p class="description center">
+        Vous souhaitez nous aider à nous développer ? <br>
+        Ouvrez un ticket sur <a class="link" href="/discord"> Discord</a> pour nous en parler en détails !
+    </p>
+    <!--<div class="l-flex l-list2">
         <div class="l-flex-item l-flex2-item">
             <img class="image logo part-logo" src="https://via.placeholder.com/256x256" alt="Other Part">
             <div class="information">
@@ -107,6 +111,6 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div>-->
 </div>
 </div>
