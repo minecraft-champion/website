@@ -1,6 +1,6 @@
+### Composer ###
+composer.phar
+/vendor/
 
-.idea/
-
-composer.lock
-
-vendor/
+### PHPStorm ###
+/.idea/
