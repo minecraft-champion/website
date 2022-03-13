@@ -8,10 +8,9 @@ COPY ./ /app
 
 RUN composer install
 
-FROM php:8.1-apache
-
-RUN a2enmod rewrite
+FROM nginx:latest
 
 COPY --from=composer /app /var/www/
+COPY ./config/conf.d /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
